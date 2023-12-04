@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # =====================================================================================================
 # @pytest.mark.parametrize("email, password", [
-#     ("esmaeil.abdalraziq@gmail.com", "Mine2023--")
+#     ("esmaeil.abdalraziq@gmail.com", "**********")
 # ])
 # =====================================================================================================
 @pytest.fixture()
@@ -33,7 +33,7 @@ def test_Login(driver):
     login_page.enter_email("esmaeil.abdalraziq@gmail.com")
     login_page.continueButton()
     time.sleep(1)
-    login_page.password_Input("Mine2023--")
+    login_page.password_Input("**********")
     login_page.click_submit_login()
     time.sleep(1)
 

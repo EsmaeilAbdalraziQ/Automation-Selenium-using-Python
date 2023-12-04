@@ -30,8 +30,8 @@ driver.find_element(By.XPATH, "//a[@id=\'nav-link-accountList\']/div/span").clic
 driver.find_element(By.XPATH, "//input[@id='ap_email']").send_keys("esmaeil.abdalraziq@gmail.com")
 driver.find_element(By.XPATH, "//input[@id='continue']").click()
 
-# 6 | type | xpath=//input[@id='ap-credential-autofill-hint'] | Mine2023--
-driver.find_element(By.XPATH, "//input[@id='ap_password']").send_keys("Mine2023--")
+# 6 | type | xpath=//input[@id='ap-credential-autofill-hint'] | **********
+driver.find_element(By.XPATH, "//input[@id='ap_password']").send_keys("**********")
 driver.find_element(By.XPATH, "//input[@id='continue']").click()
 
 

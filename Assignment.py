@@ -19,7 +19,7 @@ def driver():
 
 # ========================================================================================================
 @pytest.mark.parametrize("email, password", [
-    ("esmaeil.abdalraziq@gmail.com", "Mine2023--")
+    ("esmaeil.abdalraziq@gmail.com", "**********")
 ])
 # ========================================================================================================
 def test_amazon_login(driver, email, password):
@@ -63,12 +63,12 @@ def test_amazonSelectLanguage(driver):
 def test_amazonSearchProduct(driver):
     driver.get("https://www.amazon.eg")
 
-    # test_amazon_login(driver, "esmaeil.abdalraziq@gmail.com", "Mine2023--")  # Login User First
+    # test_amazon_login(driver, "esmaeil.abdalraziq@gmail.com", "**********")  # Login User First
 
     # driver.find_element(By.ID, "nav-link-accountList-nav-line-1").click()
     # driver.find_element(By.XPATH, "//input[@id='ap_email']").send_keys("esmaeil.abdalraziq@gmail.com")
     # driver.find_element(By.XPATH, "//input[@id='continue']").click()
-    # driver.find_element(By.XPATH, "//input[@id='ap_password']").send_keys("Mine2023--")
+    # driver.find_element(By.XPATH, "//input[@id='ap_password']").send_keys("**********")
     # driver.find_element(By.XPATH, "//input[@id='signInSubmit']").click()
 
     amazon_search_box = driver.find_element(By.XPATH, "//input[@id='twotabsearchtextbox']")
@@ -102,9 +102,3 @@ def test_amazonSearchProduct(driver):
         time.sleep(2.0)
         print("No Items Added")
 
-# <input class="a-button-input" type="submit" aria-labelledby="attachSiNoCoverage-announce">
-# <span id="attachSiNoCoverage-announce" class="a-button-text" aria-hidden="true"> لا، شكراً </span>
-# ssh -T GITHUB-EsmaeilAbdalraziQ@github.com
-# git remote add origin https://github.com/EsmaeilAbdalraziQ/Automation-Selenium-using-Python.git
-# git push origin master
-# /EsmaeilAbdalraziQ/Automation-Selenium-using-Python

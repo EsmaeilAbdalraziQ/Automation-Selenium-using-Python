@@ -15,10 +15,4 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-# git clone git@github.com:EsmaeilAbdalraziQ/Automation-Selenium-Python.git
-# ssh-keygen -t rsa -b 4096 -C "EsmaeilAbdalraziQ@gmail.com"
-# C:\Users\esmae\.ssh\id_rsa.pub
-#   - id_rsa          (Private Key)
-#   - id_rsa.pub      (Public Key)
